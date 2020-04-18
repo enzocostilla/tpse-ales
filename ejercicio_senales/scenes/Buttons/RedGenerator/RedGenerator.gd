@@ -10,4 +10,6 @@ func _ready():
 
 
 func _on_RedGenerator_button_down():
+	var BlockRedInstance=BlockRed.instance()
+	add_child(BlockRedInstance)
 	pass # Replace with function body.
