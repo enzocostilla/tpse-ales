@@ -15,10 +15,13 @@ _global_script_class_icons={
 
 [application]
 
-config/name="clase_2_senales"
-run/main_scene="res://scenes/WorldTest.tscn"
-config/icon="res://assets/icon.png"
+config/name="ejercicio_senales"
+run/main_scene="res://scenes/Menu/Menu.tscn"
+config/icon="res://icon.png"
 
 [rendering]
 
+quality/driver/driver_name="GLES2"
+vram_compression/import_etc=true
+vram_compression/import_etc2=false
 environment/default_environment="res://default_env.tres"
